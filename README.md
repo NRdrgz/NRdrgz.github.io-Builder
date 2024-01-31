@@ -103,7 +103,10 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
   - You need to change the name from `blueTheme` to whatever theme you want to set your website to
   - You can define new theme similarly as other themes and you can assign name of that new defined theme to `chosenTheme`
 - That's it. You just need to change the theme name and the code will take care of everything else
-- Run `npm start` to check if everything is ok.
+
+
+# Testing 
+- Run `npm start` to test locally your webiste.
 
 # Deployment 📦
 
@@ -111,7 +114,6 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 - First you need to create a github repository with the name `<your-github-username>.github.io`. Please don't give it any other name.
 - Now, you need to generate a production build and deploy the website.
 
-**Option 1:**
 
 - Run `npm run build` to generate the production build folder.
 - Enter the build folder, `git init` and push the generated code to the `master` branch of your new repository on github. That's it. It's Done.
