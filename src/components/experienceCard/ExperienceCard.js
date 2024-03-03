@@ -34,8 +34,8 @@ class ExperienceCard extends Component {
                 <div>
                   <h3 className="experience-card-title" style={{ color: theme.text }}>{experience["title"]}</h3>
                   <p className="experience-card-company" style={{ color: theme.text }}>
-                    <a href={experience["company_url"]} target="_blank" rel="noopener noreferrer">
-                      {experience["company"]}
+                    <a href={experience["company_url"]} target="_blank" rel="noopener noreferrer" style={{ color: theme.secondaryText }}>
+                      {experience["company"]} 
                     </a>
                   </p>
                 </div>
@@ -47,9 +47,9 @@ class ExperienceCard extends Component {
 
                 </div>
               </div>
-              <div style={{ display: 'flex', justifyContent: 'flex-start', marginTop: 20 }}>
+              <div style={{ display: 'flex', justifyContent: 'flex-start', marginTop: 20, color: theme.secondaryText }}>
                 <div
-                  className="repo-description"
+                  className="repo-description" 
                 />
                 {experience["description"]}
               </div>

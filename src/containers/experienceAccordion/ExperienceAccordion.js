@@ -6,9 +6,11 @@ import { Accordion, Panel } from "baseui/accordion";
 class ExperienceAccordion extends Component {
   render() {
     const theme = this.props.theme;
+    const initialExpanded = this.props.sections.map(section => section.title); // Prepare initialExpanded array with all section titles
+
     return (
       <div className="experience-accord">
-        <Accordion>
+        <Accordion initialState={{ expanded: initialExpanded }}>
           {this.props.sections.map((section) => {
             return (
               <Panel
@@ -37,7 +39,7 @@ class ExperienceAccordion extends Component {
                   },
                 }}
               >
-{section["experiences"].map((experience,index) => {
+                {section["experiences"].map((experience, index) => {
                   return (
                     <ExperienceCard index={index} totalCards={section["experiences"].length} experience={experience} theme={theme} />
                   );
