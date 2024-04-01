@@ -13,10 +13,15 @@ const IconWrapper = styled.span`
   }
 `;
 
-export default function socialMedia(props) {
+export default function SocialMedia({ mediaName }) {
+  // If mediaName is provided, filter the links to find the one that matches. Otherwise, return all links.
+  const filteredLinks = mediaName
+    ? socialMediaLinks.filter((media) => media.name === mediaName)
+    : socialMediaLinks;
+
   return (
     <div className="social-media-div">
-      {socialMediaLinks.map((media, i) => {
+      {filteredLinks.map((media, i) => {
         return (
           <a
             key={i}
@@ -25,10 +30,9 @@ export default function socialMedia(props) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IconWrapper {...media} {...props}>
+            <IconWrapper {...media}>
               <i className={`fab ${media.fontAwesomeIcon}`}></i>
             </IconWrapper>
-            {/* <span></span> */}
           </a>
         );
       })}

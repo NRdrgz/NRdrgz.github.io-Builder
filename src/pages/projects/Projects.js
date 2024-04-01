@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
+import SocialMedia from "../../components/socialMedia/SocialMedia";
 import PublicationCard from "../../components/publicationsCard/PublicationCard";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
@@ -45,6 +46,7 @@ class Projects extends Component {
                 >
                   {projectsHeader["description"]}
                 </p>
+              <SocialMedia mediaName="Github"/>
               </div>
             </div>
           </Fade>

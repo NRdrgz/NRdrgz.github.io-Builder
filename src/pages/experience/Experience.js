@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
+import SocialMedia from "../../components/socialMedia/SocialMedia";
 import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
 import "./Experience.css";
 import { experience } from "../../portfolio.js";
@@ -179,6 +180,7 @@ class Experience extends Component {
                 >
                   {experience["description"]}
                 </p>
+              <SocialMedia mediaName="LinkedIn"/>
               </div>
             </div>
           </Fade>

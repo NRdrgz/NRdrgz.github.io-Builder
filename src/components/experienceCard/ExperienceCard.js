@@ -47,7 +47,7 @@ class ExperienceCard extends Component {
 
                 </div>
               </div>
-              <div style={{ display: 'flex', justifyContent: 'flex-start', marginTop: 20, color: theme.secondaryText }}>
+              <div style={{ whiteSpace: 'pre-wrap', display: 'flex', justifyContent: 'flex-start', marginTop: 20, color: theme.secondaryText, fontSize: '18px'  }}>
                 <div
                   className="repo-description" 
                 />

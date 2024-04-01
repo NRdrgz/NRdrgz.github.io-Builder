@@ -434,7 +434,7 @@ const experience = {
     "",
   sections: [
     {
-      title: "Work",
+      title: " ",
       work: true,
       experiences: [
         {
@@ -445,7 +445,7 @@ const experience = {
           duration: "2022 - Now",
           location: "Paris, France",
           description:
-            "Built from scratch and leading an international team of 6 Data Full stack profiles working for the Growth Business Unit. Blend between defining strategic goals and hands-on operations: Data Engineering, Data Science and Data Analytics.",
+            "Built from scratch and leading an international team of 6 Data Full stack profiles working for the Growth Business Unit\nBlend between defining strategic goals and hands-on operations: Data Engineering, Data Science and Data Analytics",
         
         },
         {
@@ -456,7 +456,7 @@ const experience = {
           duration: "2020 - 2022",
           location: "Paris, France",
           description:
-            "Data Full Stack role. Building models, tables, analyses and tools used by 600+ people for a $800M revenue portfolio. Full ownership of user behavior predictive models, from the source of data to the product deployment.",
+            "Data Full Stack role. Building models, tables, analyses and tools used by 600+ people for a $800M revenue portfolio\nFull ownership of user behavior predictive models, from the source of data to the product deployment",
           color: "#9b1578",
         },
         {
@@ -467,7 +467,7 @@ const experience = {
           duration: "2020",
           location: "Paris, France",
           description:
-            "Project management and creation of dashboards and analysis reports for the customers. Predictive models for restaurants occupancy and dynamic pricing.",
+            "Project management and creation of dashboards and analysis reports for the customers. Predictive models for restaurants occupancy and dynamic pricing",
           color: "#fc1f20",
         },
         {
@@ -478,7 +478,7 @@ const experience = {
           duration: "2018 - 2019",
           location: "Atlanta, USA",
           description:
-            "Grant University Project: NASA: Hybrid Electric Architecture. Design Data Optimisation of a hybrid electric architecture for a 50-passenger commercial aircraft.",
+            "Grant University Project: NASA: Hybrid Electric Architecture. Design Data Optimisation of a hybrid electric architecture for a 50-passenger commercial aircraft",
           color: "#fc1f20",
         },
       ],

@@ -21,7 +21,7 @@ class ExperienceAccordion extends Component {
                   Header: {
                     style: () => ({
                       backgroundColor: `${theme.body}`,
-                      border: `1px solid`,
+                      border: `0px solid`,
                       borderRadius: `5px`,
                       borderColor: `${theme.headerColor}`,
                       marginBottom: `3px`,
