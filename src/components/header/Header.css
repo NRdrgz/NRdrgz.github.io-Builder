@@ -146,3 +146,9 @@
     font-size: 12px;
   }
 }
+
+@media (max-width: 768px) {
+  .header {
+    background-color: #fff; /* Make the navbar background white */
+  }
+}
