@@ -445,7 +445,7 @@ const experience = {
           duration: "2022 - Now",
           location: "Paris, France",
           description:
-            "Built from scratch and leading an international team of 6 Data Full stack profiles working for the Growth Business Unit\nBlend between defining strategic goals and hands-on operations: Data Engineering, Data Science and Data Analytics",
+            "Built from scratch and led an international team of 6 Data Full stack profiles, Junior to Senior, working with Growth business unit.\nSpearheaded Data Engineering and Data Analysis initiatives using Airflow, Python, AWS, DBT, Tableau, and SQL.\nTechnical Program Management, managing cross functional programs across product and growth stacks.\nCommunication with C-levels to influence strategic decision-making and monitor north star metrics.",
         
         },
         {
@@ -456,7 +456,7 @@ const experience = {
           duration: "2020 - 2022",
           location: "Paris, France",
           description:
-            "Data Full Stack role. Building models, tables, analyses and tools used by 600+ people for a $800M revenue portfolio\nFull ownership of user behavior predictive models, from the source of data to the product deployment",
+            "Data Full Stack role: building models, tables, analyses and tools used by 600+ people for a $800M revenue portfolio.\nData Engineering operations dealing with a 2B events per day database. From API calls into AWS S3, Redshift and Athena,with Airflow DAGs.\nData Science operations predicting future user revenue with Machine Learning models (XGBoost) achieving an accuracy of 85% to help Growth business operations. Develop analysis methods to evaluate Machine Learning algorithms.\nData Analytics operations working hand in hand with business teams, building intermediate table with DBT, final dashboards and tools with Tableau. Statistical data analysis of AB-testing",
           color: "#9b1578",
         },
         {
@@ -467,7 +467,7 @@ const experience = {
           duration: "2020",
           location: "Paris, France",
           description:
-            "Project management and creation of dashboards and analysis reports for the customers. Predictive models for restaurants occupancy and dynamic pricing",
+            "Data Science & Machine Learning projects to maximise pricing and portfolio value for various clients (energy, transport).\nFacilitated stakeholder workshops and progress meetings to align project objectives using JIRA and Asana.\nTechnical program management ensuring progress tracking, planning, defining milestones and ensuring project delivery.",
           color: "#fc1f20",
         },
         {
@@ -478,7 +478,7 @@ const experience = {
           duration: "2018 - 2019",
           location: "Atlanta, USA",
           description:
-            "Grant University Project: NASA: Hybrid Electric Architecture. Design Data Optimisation of a hybrid electric architecture for a 50-passenger commercial aircraft",
+            "Project management in collaboration with NASA: conceptual design of a hybrid propulsion architecture for regional aircraft (50 passengers).\nProject management in collaboration with NATO: optimization software and models for interventions and deployments of humanitarian aid.\nDevelopment of a Machine Learning models (Random Forest) to perform offline prediction of flight landing distances.",
           color: "#fc1f20",
         },
       ],
